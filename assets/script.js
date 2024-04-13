@@ -1,6 +1,6 @@
 var week = new Date()
 var day = week.getDay()
-var day = 5
+// var day = 3
 
 switch (day) {
     case 1:
@@ -40,11 +40,11 @@ switch (day) {
         week_day.innerHTML = `Quinta-Feira`
         horario_aula.innerHTML = `18:45 até 20:25`
         materia.innerHTML = `Residencia - G16`
-        prof.innerHTML = `Prof. Roberto Wagner`
+        prof.innerHTML = `Prof. Fabio Batista`
 
         horario_aula_2.innerHTML = `20:35 até 22:15`
         materia_2.innerHTML = `Residencia - G16`
-        prof_2.innerHTML = `Prof. Roberto Wagner`
+        prof_2.innerHTML = `Prof. Fabio Batista`
 
         break
     case 5:
